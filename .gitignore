@@ -1,0 +1,21 @@
+# OS / editor
+Thumbs.db
+Desktop.ini
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Local scratch / RE extracts (do not publish)
+materials/sdk/_rea_scratch/
+
+# Node / local preview
+node_modules/
+.cache/
+_site/
+
+# Secrets
+.env
+.env.*
+*.pem
+credentials.json
