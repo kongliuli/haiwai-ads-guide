@@ -12,6 +12,13 @@ sdk/
 **/sdk-binaries/
 **/*-sdk-download/
 
+# 反编译 / REA 衍生笔记（不进仓库、不在文档站展示）
+docs/design/04-广告位元数据.md
+docs/design/*placement*
+docs/design/*PlacementSpec*
+docs/rea/
+docs/reverse/
+
 # 常见广告 / 移动 SDK 制品
 *.aar
 *.ap_
