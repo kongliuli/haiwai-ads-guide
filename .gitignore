@@ -6,8 +6,57 @@ Desktop.ini
 .vscode/
 *.swp
 
-# SDK binaries / local materials (not part of the docs site)
+# --- SDK 材料 / 二进制（不进仓库、不进 Pages）---
 materials/
+sdk/
+**/sdk-binaries/
+**/*-sdk-download/
+
+# 常见广告 / 移动 SDK 制品
+*.aar
+*.ap_
+*.apk
+*.aab
+*.ipa
+*.xcframework/
+*.framework/
+*.unitypackage
+*.jar
+*.dex
+*.so
+*.dylib
+googlemobileadssdk*.zip
+*MobileAds*.zip
+FBAudienceNetwork*.zip
+AppLovin*SDK*.zip
+
+# Maven / Gradle 本地缓存式落盘（若误下到仓内）
+**/maven-metadata.xml
+**/*.pom
+
+# --- 反编译 / REA / 逆向产物 ---
+_rea_scratch/
+**/_rea_scratch/
+rea/
+**/rea-out/
+**/rea_output/
+decompiled/
+**/decompiled/
+jadx*/
+**/jadx-output/
+apktool*/
+**/apktool_out/
+**/smali/
+**/smali_classes*/
+**/resources/
+**/assets/audience_network/
+*.jeb
+*.idb
+*.i64
+*.ghidra
+*.r2
+dump.cs
+il2cpp_dump/
 
 # Node / local preview
 node_modules/
