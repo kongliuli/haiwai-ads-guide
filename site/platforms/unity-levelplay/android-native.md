@@ -1,8 +1,7 @@
-# LevelPlay · Android 原生 SDK（非 Unity）
+﻿# LevelPlay · Android 原生 SDK（非 Unity）
 
 > 编写模型: Composer (Cursor Agent) · 2026-10-15  
 > 对照原文：[Android SDK integration](https://docs.unity.com/en-us/grow/levelplay/sdk/android/sdk-integration)  
-> 本地材料：[materials/sdk/unity-levelplay/SOURCE.md](../../../materials/sdk/unity-levelplay/SOURCE.md)
 
 面向**不用 Unity 引擎**、但仍想用 LevelPlay 聚合（含 Unity Ads 等网络）的 Android 个人开发者。Unity 工程请走 [Unity 包](unity-package.md)。
 
@@ -23,7 +22,7 @@ repositories {
 }
 ```
 
-依赖（版本以官网 / Maven 为准；本仓库归档过 **9.6.1**）：
+依赖（版本以官网 / Maven 为准）：
 
 ```groovy
 dependencies {
@@ -35,7 +34,7 @@ dependencies {
 
 ### 备选：手动 AAR
 
-1. 下载 `mediation-sdk-x.y.z.aar`（本仓：`materials/sdk/unity-levelplay/mediation-sdk-9.6.1.aar`）  
+1. 下载 `mediation-sdk-x.y.z.aar`  
 2. 作为 module / `libs` 依赖导入  
 3. 较新 SDK 通常还需要 Kotlin 标准库支持  
 

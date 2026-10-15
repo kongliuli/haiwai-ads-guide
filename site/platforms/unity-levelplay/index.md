@@ -1,8 +1,7 @@
-# Unity Ads / LevelPlay · 概览与起步
+﻿# Unity Ads / LevelPlay · 概览与起步
 
 > 编写模型: Composer (Cursor Agent) · 2026-10-15  
 > 对照原文：[Unity LevelPlay](https://docs.unity.com/en-us/grow/levelplay) · [Platform](https://docs.unity.com/en-us/grow/levelplay/platform) · [SDK](https://docs.unity.com/en-us/grow/levelplay/sdk) · [Account](https://docs.unity.com/en-us/grow/levelplay/account) · Dashboard [dashboard.unity3d.com](https://dashboard.unity3d.com/)  
-> 本地材料：[materials/sdk/unity-levelplay/SOURCE.md](../../../materials/sdk/unity-levelplay/SOURCE.md)
 
 ## 名称怎么区分
 
@@ -35,8 +34,6 @@
 - 或导入官方 `.unitypackage`  
 
 自较新 LevelPlay Unity 包起，**默认会带 Unity Ads adapter**。详细步骤见 [unity-package.md](unity-package.md)。
-
-本仓库归档：`materials/sdk/unity-levelplay/UnityLevelPlay_v9.3.0.unitypackage`。
 
 ## 原生 Android（摘要）
 

@@ -1,4 +1,4 @@
-# AdSense · Auto ads 与广告单元怎么选
+﻿# AdSense · Auto ads 与广告单元怎么选
 
 > 编写模型: Composer (Cursor Agent) · 2026-10-15  
 > 对照原文：[在网站上设置广告](https://support.google.com/adsense/answer/7037624) · [Auto ads 设置](https://support.google.com/adsense/answer/9261806) · [广告放置最佳做法](https://support.google.com/adsense/answer/1282097) · [创建广告单元](https://support.google.com/adsense/answer/9274634)
@@ -33,7 +33,7 @@
 
 ### 手动广告单元
 
-- 在控制台创建单元，把 `adsbygoogle.js`（通常 `client=ca-pub-…`）与对应 `<ins class="adsbygoogle">` 放到模板。示例见概览页与仓库 `materials/sdk/adsense/adsense-sample.html`。  
+- 在控制台创建单元，把 `adsbygoogle.js`（通常 `client=ca-pub-…`）与对应 `<ins class="adsbygoogle">` 放到模板。示例见概览页代码片段。  
 - 优先**自适应（responsive）**单元，少死磕固定像素。  
 - 广告旁标注仅可用「广告」「赞助商链接」等政策允许用语，勿做成假导航/假下载按钮。见[广告放置最佳做法](https://support.google.com/adsense/answer/1282097)。
 

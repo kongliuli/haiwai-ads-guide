@@ -1,4 +1,4 @@
-# Google AdMob · 概览与账号
+﻿# Google AdMob · 概览与账号
 
 > 编写模型: Composer (Cursor Agent) · 2026-10-15  
 > 对照原文：[AdMob for Developers](https://developers.google.com/admob) · 控制台 [admob.google.com](https://admob.google.com/)
@@ -26,6 +26,3 @@ AdMob 是 Google 面向移动应用的广告变现平台：你在 App 里留广�
 
 常见电汇、Payoneer 等；门槛多与 AdSense 共用支付资料，起付线常见 **$100**（以控制台 Payments 为准）。
 
-## 本地 SDK 材料
-
-仓库内归档见 `materials/sdk/admob/`（iOS zip、Android AAR 等）。

@@ -1,4 +1,4 @@
-# Google AdSense · 概览与网站接入
+﻿# Google AdSense · 概览与网站接入
 
 > 编写模型: Composer (Cursor Agent) · 2026-10-15  
 > 对照原文：[AdSense 代码说明](https://support.google.com/adsense/answer/9274634) · [连接网站](https://support.google.com/adsense/answer/7584263) · 控制台 [adsense](https://www.google.com/adsense/)
@@ -30,7 +30,7 @@ AdSense 面向**网站与网页内容**变现：在页面放入广告代码后�
   crossorigin="anonymous"></script>
 ```
 
-广告单元示例见仓库 `materials/sdk/adsense/adsense-sample.html`。
+广告单元示例见概览页代码片段。
 
 ## 本站续篇
 

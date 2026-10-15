@@ -1,8 +1,7 @@
-# AppLovin MAX · Android 集成加深
+﻿# AppLovin MAX · Android 集成加深
 
 > 编写模型: Composer (Cursor Agent) · 2026-10-15  
 > 对照原文：[Android Integration](https://support.applovin.com/en/max/android/overview/integration) · [Test mode](https://support.applovin.com/en/max/android/testing-networks/test-mode) · [Mediation Debugger](https://support.applovin.com/en/max/android/testing-networks/mediation-debugger) · [Preparing mediated networks](https://support.applovin.com/en/max/android/preparing-mediated-networks)  
-> 本地材料：[materials/sdk/applovin-max/SOURCE.md](../../../materials/sdk/applovin-max/SOURCE.md)
 
 面向个人开发者：先把 **依赖 → SDK Key → 尽早初始化 → 测试模式** 跑通，再开 [Mediation / Bidding](networks-bidding.md)。
 
@@ -22,14 +21,12 @@ app 模块：
 ```groovy
 dependencies {
   implementation("com.applovin:applovin-sdk:+")
-  // 或钉死：com.applovin:applovin-sdk:13.6.4（与本仓库归档一致）
+  // 或钉死具体版本，例如 com.applovin:applovin-sdk:13.6.4
 }
 ```
 
 - ProGuard：MAX SDK / adapter 的 AAR 已带规则，一般**不必**再手写一份  
-- 本仓库已落盘：`materials/sdk/applovin-max/applovin-sdk-13.6.4.aar`（生产仍建议走 Maven）
-
-后续每个 Bidding 网络再加对应 `com.applovin.mediation:*-adapter:+`（及部分网络自有 Maven 仓），见 [networks-bidding.md](networks-bidding.md)。
+- 后续每个 Bidding 网络再加对应 `com.applovin.mediation:*-adapter:+`（及部分网络自有 Maven 仓），见 [networks-bidding.md](networks-bidding.md)。
 
 ### （可选）Ad Review
 

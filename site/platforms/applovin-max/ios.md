@@ -1,8 +1,7 @@
-# AppLovin MAX · iOS 集成加深
+﻿# AppLovin MAX · iOS 集成加深
 
 > 编写模型: Composer (Cursor Agent) · 2026-10-15  
 > 对照原文：[iOS Integration](https://support.applovin.com/en/max/ios/overview/integration) · [Test mode](https://support.applovin.com/en/max/ios/testing-networks/test-mode) · [Mediation Debugger](https://support.applovin.com/en/max/ios/testing-networks/mediation-debugger) · [Preparing mediated networks](https://support.applovin.com/en/max/ios/preparing-mediated-networks)  
-> 本地材料：[materials/sdk/applovin-max/SOURCE.md](../../../materials/sdk/applovin-max/SOURCE.md)
 
 与 Android 同序：**装 SDK → SDK Key → 启动时初始化 → 测试模式**，再开 [Mediation / Bidding](networks-bidding.md)。
 

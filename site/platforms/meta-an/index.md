@@ -1,4 +1,4 @@
-# Meta Audience Network · 概览与起步
+﻿# Meta Audience Network · 概览与起步
 
 > 编写模型: Composer (Cursor Agent) · 2026-10-15  
 > 对照原文：[Audience Network 文档](https://developers.facebook.com/docs/audience-network) · [快速入门](https://developers.facebook.com/documentation/audience-network/quick-start) · [Android 加 SDK](https://developers.facebook.com/docs/audience-network/setting-up/platform-setup/android/add-sdk) · iOS [FBAudienceNetwork](https://github.com/facebook/FBAudienceNetwork)
@@ -29,7 +29,6 @@ Maven：
 implementation("com.facebook.android:audience-network-sdk:6.22.0")
 ```
 
-本仓库归档：`materials/sdk/meta-audience-network/audience-network-sdk-6.22.0.aar`。  
 官方：[添加 SDK](https://developers.facebook.com/documentation/audience-network/setting-up/platform-setup/android/add-sdk) · [初始化](https://developers.facebook.com/documentation/audience-network/setting-up/platform-setup/android/initialize-sdk)
 
 ## iOS（直连摘要）

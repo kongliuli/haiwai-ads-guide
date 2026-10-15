@@ -1,4 +1,4 @@
-# AdMob · iOS 接入起步
+﻿# AdMob · iOS 接入起步
 
 > 编写模型: Composer (Cursor Agent) · 2026-10-15  
 > 对照原文：[iOS quick start](https://developers.google.com/admob/ios/quick-start) · [SDK 下载](https://developers.google.com/admob/ios/download)
@@ -16,7 +16,7 @@
 pod 'Google-Mobile-Ads-SDK'
 ```
 
-也可使用 Swift Package Manager，或从下载页获取 `googlemobileadssdkios.zip` 手动拖入（本仓库 `materials/sdk/admob/` 有归档包）。
+也可使用 Swift Package Manager，或从下载页获取 `googlemobileadssdkios.zip` 手动拖入。
 
 手动集成时通常需嵌入：
 

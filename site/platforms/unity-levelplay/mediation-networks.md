@@ -1,8 +1,7 @@
-# LevelPlay · 配置 Mediation Networks（含默认 Unity Ads）
+﻿# LevelPlay · 配置 Mediation Networks（含默认 Unity Ads）
 
 > 编写模型: Composer (Cursor Agent) · 2026-10-15  
 > 对照原文：[Mediation Networks for Unity](https://docs.unity.com/en-us/grow/levelplay/sdk/unity/mediation-networks)  
-> 本地材料：[materials/sdk/unity-levelplay/SOURCE.md](../../../materials/sdk/unity-levelplay/SOURCE.md)
 
 在已能初始化 LevelPlay、并至少接好一种广告格式（激励 / 插屏 / 横幅）之后，用 **Mediation Networks** 把更多广告源接进同一条瀑布或 Bidding，提高填充与 eCPM。
 
@@ -37,7 +36,7 @@
 2. 在 `<unityversion>…</unityversion>` 指定版本  
 3. 核对同文件里 Android `<androidPackage spec="…">` 与 iOS `<iosPod version="…">` 与该 adapter 兼容  
 
-本仓库归档的 Unity Ads Android SDK 参考坐标：`com.unity3d.ads:unity-ads:4.21.0`（以 adapter 要求为准）。
+Unity Ads Android SDK 参考坐标（以 Maven / adapter 要求为准）：`com.unity3d.ads:unity-ads:4.21.0`（以 adapter 要求为准）。
 
 ## 常用网络一览（版本会变，以官网表为准）
 

@@ -1,4 +1,4 @@
-# AppLovin MAX · 概览与起步
+﻿# AppLovin MAX · 概览与起步
 
 > 编写模型: Composer (Cursor Agent) · 2026-10-15  
 > 对照原文：[Getting started](https://support.applovin.com/en/max/getting-started) · [Android 集成](https://support.applovin.com/en/max/android/overview/integration) · [iOS 集成](https://support.applovin.com/en/max/ios/overview/integration) · 控制台 [dash.applovin.com](https://dash.applovin.com/) · 产品 [MAX](https://www.applovin.com/max/)
@@ -50,9 +50,7 @@ dependencies {
 }
 ```
 
-细节与完整示例：[android.md](android.md)。本仓库归档：`materials/sdk/applovin-max/applovin-sdk-13.6.4.aar`。
-
-## iOS 起步（摘要）
+细节与完整示例：[android.md](android.md)。## iOS 起步（摘要）
 
 - CocoaPods：`pod 'AppLovinSDK'`，或 Xcode SPM  
 - 最低 iOS 12、Xcode 15+（以官网为准）  

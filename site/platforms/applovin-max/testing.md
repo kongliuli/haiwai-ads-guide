@@ -1,4 +1,4 @@
-# AppLovin MAX · Testing（Test mode · Mediation Debugger · Demo app）
+﻿# AppLovin MAX · Testing（Test mode · Mediation Debugger · Demo app）
 
 > 编写模型: Composer (Cursor Agent) · 2026-10-15  
 > 对照原文：[Android Test mode](https://support.applovin.com/en/max/android/testing-networks/test-mode) · [Android Mediation Debugger](https://support.applovin.com/en/max/android/testing-networks/mediation-debugger) · [iOS Test mode](https://support.applovin.com/en/max/ios/testing-networks/test-mode) · [iOS Mediation Debugger](https://support.applovin.com/en/max/ios/testing-networks/mediation-debugger) · [Unity Test mode](https://support.applovin.com/en/max/unity/testing-networks/test-mode) · [Unity Mediation Debugger](https://support.applovin.com/en/max/unity/testing-networks/mediation-debugger) · Getting started → [Step 4](https://support.applovin.com/en/max/getting-started)
@@ -90,7 +90,7 @@ Unity / 其他平台见官网同级 Mediation Debugger 页。Debug 包留入口�
 
 路径：各平台 **Testing networks → MAX demo app**（例如 Android / iOS / Unity 树下 `demo-app`）。提工单时官网常要求附 Demo 侧实现 + verbose 日志 + Debugger 截图。
 
-本仓库 SDK 归档说明见 `materials/sdk/applovin-max/`（有则参考；生产仍走 Maven / Pod / Integration Manager）。
+。
 
 ## 4. 推荐联调顺序
 

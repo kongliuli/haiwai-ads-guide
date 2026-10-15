@@ -6,8 +6,8 @@ Desktop.ini
 .vscode/
 *.swp
 
-# Local scratch / RE extracts (do not publish)
-materials/sdk/_rea_scratch/
+# SDK binaries / local materials (not part of the docs site)
+materials/
 
 # Node / local preview
 node_modules/

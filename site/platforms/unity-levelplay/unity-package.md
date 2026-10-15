@@ -1,8 +1,7 @@
-# LevelPlay · Unity 包安装与首次出广告
+﻿# LevelPlay · Unity 包安装与首次出广告
 
 > 编写模型: Composer (Cursor Agent) · 2026-10-15  
 > 对照原文：[Unity Package integration](https://docs.unity.com/en-us/grow/levelplay/sdk/unity/package-integration)  
-> 本地材料：[materials/sdk/unity-levelplay/SOURCE.md](../../../materials/sdk/unity-levelplay/SOURCE.md)
 
 面向用 **Unity 引擎** 做游戏的个人开发者：把 LevelPlay（Ads Mediation）装进工程，初始化成功后即可接激励/插屏等格式。
 
@@ -25,7 +24,7 @@
 **备选：`.unitypackage`**
 
 - 从官网下载当前 Unity Plugin（文档页会标版本，例如 9.x）  
-- 本仓库归档：`materials/sdk/unity-levelplay/UnityLevelPlay_v9.3.0.unitypackage`（版本可能落后于官网，以可跑通为准）
+- （版本可能落后于官网，以可跑通为准）
 
 装好后，可在包详情的 **Samples** 里导入 **LevelPlay Sample**，用官方示例先摸清流程。
 

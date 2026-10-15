@@ -19,20 +19,18 @@
 | ID | 事项 | 状态 |
 |----|------|------|
 | BATCH-01 | 主流平台总览 + 聚合策略（台账文档） | 完成 |
-| BATCH-02 | 六家官网/SDK 本地预备材料 | 完成 |
-| BATCH-02b | REA 拆 SDK → PlacementSpec（`docs/design/04`） | 完成 |
-| BATCH-03 | 官网英文文档 → 中文整合站（GH Pages） | 03a/b 完成；03c/d 待办 |
+| BATCH-02 | 六家官网/SDK 本地预备材料 | 已撤销 | 已从仓库与 Pages 范围移除，站点只展示中文文档 |
+| BATCH-02b | PlacementSpec（`docs/design/04`） | 完成 | 内部设计笔记，不进 Pages |
+| BATCH-03 | 官网英文文档 → 中文整合站（GH Pages） | 完成 | 见线上站点 |
 
 ## 待办（后续）
 
 - [ ] 各 `portal-map` 中仍标「待写」的细目（如 MAX Flutter/RN、LevelPlay APIs/Account、AdSense 报表等）
-- [x] 创建 GitHub 仓库、推送、打开 Pages，回填线上 URL 到 README
-- [ ] Meta AN iOS 官方手动 ZIP 若放出再补 `materials/sdk`
+- [x] 创建 GitHub 仓库、推送、打开 Pages
+- [x] 移除 `materials/sdk`，Pages / 仓库仅保留文档站
 
 ## 已完成
 
-- [x] 第一批台账文档 `docs/design/01`、`02`
-- [x] SDK 预备 `materials/sdk/` + PlacementSpec `docs/design/04`
-- [x] REA 拆解分发/呈现/Bridge，归纳广告位元数据
-- [x] 中文站骨架与起步内容 `site/`
-- [x] Pages 部署工作流 `.github/workflows/deploy-pages.yml`
+- [x] 台账文档 `docs/design/01`、`02`、`03`、`04`
+- [x] 中文站 `site/` + Pages 部署
+- [x] 去掉 SDK 二进制与站内本地材料引用
